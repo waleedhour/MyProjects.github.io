@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dentist Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-tooth"></i> dentist </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#team">team</a>
+            <a href="#team">Offirs</a>
+
+
+        </nav>
+
+        <a href="Login.html" class="btn" style="position: absolute; left: 120rem;"> login </a>
+        <form action="languages" style="position: relative; left: 32rem;">
+            <select class="btn lang" name="language" id="language">
+                <optgroup>
+                    <option value="English">English</option>
+                    <option value="عربي">عربي</option>
+                </optgroup>
+            </select>
+        </form>
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>make your smile shine</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, dolores. Ad rerum eum assumenda mollitia autem quo nulla, consequatur quisquam est? Dolorem fugiat fugit amet dolores provident velit eos est.</p>
+            <a href="Login.html" class="btn">login</a>
+            <a href="appointment.html" class="btn">Take appointment</a>
+        </div>
+
+
+    </section>
+
+    <!-- home end -->
+
+    <!-- about us section-->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> about us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about.webp" alt="">
+            </div>
+
+            <div class="content">
+                <h3>our clinic is made for you to be smiling all the time</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore explicabo recusandae cumque dolor voluptas nihil.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore explicabo recusandae cumque dolor voluptas nihil.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about end -->
+
+
+    <!-- services -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> our services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/services-1.webp" alt="">
+                <h3>online schedule</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis in excepturi.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/services-2.webp" alt="">
+                <h3>cosmetic feeling</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis in excepturi.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/services-3.webp" alt="">
+                <h3>oral hygiene experts</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis in excepturi.</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- services end-->
+
+    <!-- team section -->
+
+    <section class="team" id="team">
+
+        <h1 class="heading"> our team</h1>
+
+        <div class="swiper team-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/team-1.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-whatsapp"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="doinforamtion">Dr: <span class="mai">Mai</span></h3>
+                        <span class="doinfor">Here the doctor need to add his/her information to let patients to knoe about them</span>    
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/team-4.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+        
+    <!-- OFfiers-->
+    <h1 class="heading" id="off" style="position: absolute; left: 69rem;"> Offiers</h1>
+    <div class="pricing-container">
+        <div class="pricing-plan">
+          <div class="plan-title">Basic</div>
+          <div class="plan-price">$9.99/month</div>
+          <ul class="plan-features">
+            <li>✅ 10GB Storage</li>
+            <li>✅ 1 User</li>
+            <li>🚫 Support</li>
+          </ul>
+          <a href="#"><button class="plan-button">Read more</button></a>
+        </div>
+        <div class="pricing-plan">
+          <div class="plan-title">Standard</div>
+          <div class="plan-price">$19.99/month</div>
+          <ul class="plan-features">
+            <li>✅ 50GB Storage</li>
+            <li>✅ 5 Users</li>
+            <li>✅ Phone &amp; Email Support</li>
+          </ul>
+          <a href="#"><button class="plan-button">Read more</button></a>
+        </div>
+        <div class="pricing-plan">
+          <div class="plan-title">Premium</div>
+          <div class="plan-price">$49.99/month</div>
+          <ul class="plan-features">
+            <li>✅ 100GB Storage</li>
+            <li>✅ 10 Users</li>
+            <li>✅ 24/7 Support</li>
+          </ul>
+          <a href="#"><button class="plan-button">Read more</button></a>
+        </div>
+        <div class="pricing-plan">
+            <div class="plan-title">Premium</div>
+            <div class="plan-price">$49.99/month</div>
+            <ul class="plan-features">
+              <li>✅ 100GB Storage</li>
+              <li>✅ 10 Users</li>
+              <li>✅ 24/7 Support</li>
+            </ul>
+            <a href="#"><button class="plan-button">Read more</button></a>
+          </div>
+      </div>
+
+    <!-- Offiers ends-->
+
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">make appointment</h1>
+
+        <form action="">
+
+            <span>your name :</span>
+            <div class="inputBox">
+                <input type="text" placeholder="first name">
+                <input type="text" placeholder="last name">
+            </div>
+
+            <span>your email :</span>
+            <input type="email" placeholder="enter your email" class="box">
+
+            <span>your number :</span>
+            <input type="number" placeholder="enter your phone number" class="box">
+
+            <span>appointment date :</span>
+            <input type="datetime-local" class="box">
+
+            <input type="submit" value="Apply now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- contact ends-->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>address</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex placeat.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>e-mail</h3>
+                <a href="#" class="link">ninjashub4@gmail.com</a>
+                <a href="#" class="link">ninjashub4@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>call us</h3>
+                <p>+61 (0) 3 2587 4569</p>
+                <p>+61 (0) 3 2587 4569</p>
+            </div>
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p>monday - friday : 8:00 - 24:00 <br>
+                   saturday : 9:00 - 24:00    
+                </p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>ninjashub</span> | all rights reserved!</div>
+
+    </section>
+
+
+
+
+
+    <!-- footer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
